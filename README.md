@@ -1,6 +1,6 @@
 # HellOnFire
 
-Solution from Hell triangle problem solved with Elixir using method recursive along tree structure.
+Solution from Hell triangle problem solved with Elixir using method recursive along tree structure. Explanation about problem [here](problem.pdf).
 
 ## Requirements
 
