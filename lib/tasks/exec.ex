@@ -3,7 +3,7 @@ defmodule Mix.Tasks.Exec do
   @shortdoc "Command line tool to run project"
   def run(args) do
     args
-    |>Enum.at(0)
-    |>HellOnFire.main()
+    |> Enum.at(0)
+    |> HellOnFire.main()
   end
 end

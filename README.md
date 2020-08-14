@@ -1,21 +1,21 @@
 # HellOnFire
 
-**TODO: Add description**
+Solution from Hell triangle problem solved with Elixir using method recursive along tree structure.
 
-## Installation
+## Requirements
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `hell_on_fire` to your list of dependencies in `mix.exs`:
+Elixir >= 1.10
+Mix >= 1.10
 
-```elixir
-def deps do
-  [
-    {:hell_on_fire, "~> 0.1.0"}
-  ]
-end
+# Instalation and Usage
+
+- Clone this repository and go to it
+- From folder project run `mix exec` giving a valid list with numbers.
+
+```bash
+$ pwd
+|> /path/to/hell_on_fire
+
+$ mix exec "[[6],[3,5],[9,7,1],[4,6,8,4]]"
+|>26
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/hell_on_fire](https://hexdocs.pm/hell_on_fire).
-
